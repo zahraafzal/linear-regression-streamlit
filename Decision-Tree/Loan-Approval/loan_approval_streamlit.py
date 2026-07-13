@@ -3,12 +3,9 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.preprocessing import LabelEncoder
 from pathlib import Path
-import os
 
 BASE_DIR = Path(__file__).parent
 
-st.write("Current folder:", BASE_DIR)
-st.write("Files in folder:", os.listdir(BASE_DIR))
 
 st.title("Loan Approval Prediction")
 
